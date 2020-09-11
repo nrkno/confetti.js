@@ -26,12 +26,11 @@ You can call any of the following available functions:
 You can also configure these parameters:
 
     confetti.maxCount = 80;     //set max confetti count
-
-confetti.maxPerClick = 6; //set max confetti count per user click
-confetti.speed = 5; //set the particle animation speed
-confetti.frameInterval = 15; //the confetti animation frame interval in milliseconds
-confetti.alpha = 1; //Start alpha/opacity value of particles
-confetti.fadeBorder = 0.6; //Height where fading of particles starts
-confetti.fade = 0.008; //Alpha fade per frame
+    confetti.maxPerClick = 6; //set max confetti count per user click
+    confetti.speed = 5; //set the particle animation speed
+    confetti.frameInterval = 15; //the confetti animation frame interval in milliseconds
+    confetti.alpha = 1; //Start alpha/opacity value of particles
+    confetti.fadeBorder = 0.6; //Height where fading of particles starts
+    confetti.fade = 0.008; //Alpha fade per frame
 
 Enjoy!
