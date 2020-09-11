@@ -150,7 +150,12 @@ function runAnimation() {
   }
 }
 
-function startConfetti({ timeout, amount, img, rootEl } = {}) {
+function startConfetti({
+  timeout,
+  amount = 1,
+  img,
+  rootEl = document.body,
+} = {}) {
   _rootEl = rootEl;
   let canvas = rootEl.querySelector(`#${CONFETTI_NAME}`);
 

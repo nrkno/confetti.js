@@ -10,10 +10,8 @@ Based on [mathusummut/confetti.js](https://github.com/mathusummut/confetti.js)
 
 You can call any of the following available functions:
 
-    confetti.start();                  //starts the confetti animation (keeps going until stopped manually)
-    confetti.start({ timeout, amount, img, rootEl});      //starts confetti animation with confetti timeout in milliseconds (if timeout is 0, it will keep going until stopped manually)
-    confetti.start(timeout, amount);   //like confetti.start(timeout), but also specifies the number of confetti particles to throw (50 would be a good example)
-    confetti.start(timeout, min, max); //like confetti.start(timeout), but also the specifies the number of confetti particles randomly between the specified minimum and maximum amount
+    confetti.start();                  //starts the confetti animation
+    confetti.start({ timeout, amount, img, rootEl});      //starts confetti animation with configs
     confetti.stop();        //stops adding confetti
     confetti.toggle();      //starts or stops the confetti animation depending on whether it's already running
     confetti.pause();       //freezes the confetti animation
