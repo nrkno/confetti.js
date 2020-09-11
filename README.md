@@ -4,7 +4,7 @@ A simple confetti floating animation overlay for your website! 🙂 (no librarie
 
 Support use of images and confetti.
 
-Based on [https://github.com/mathusummut/confetti.js](mathusummut/confetti.js)
+Based on [mathusummut/confetti.js](https://github.com/mathusummut/confetti.js)
 
 ## Use
 
